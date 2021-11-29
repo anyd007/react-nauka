@@ -1,0 +1,13 @@
+#root,
+.app {
+    
+    height: 100%;
+   
+    
+}
+.app{
+    text-align: center;
+    background-color: tomato;
+    width: 50%;
+    margin: 0 auto;
+}

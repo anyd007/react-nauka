@@ -3,3 +3,4 @@ Stworzyłem komponent App.jsx i Countdown.jsx. W komponencie Countdown utworzył
 W App.jsx, tworzę komponent stanu, który zawiera tablicę ‘events:[….,’ z obiektami ‘{id: 0……..}, {id: 1…….}.
 Komponent App.jsx jest eksportowany do komponentu index.js.
 PS: męczę się strasznie ale walczę 
+Tworzę w folderze SRC nowy plik App.css i Countdown.css.
