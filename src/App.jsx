@@ -20,7 +20,7 @@ class App extends Component{
         })
         return(
             <div className="app"> {events} 
-            <EditEvent />
+            <EditEvent onSave={ () => alert('a')}/>
             </div>
         )
     }

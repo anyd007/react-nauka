@@ -3,5 +3,6 @@
 3. W App.jsx, tworzę komponent stanu, który zawiera tablicę ‘events:[….,’ z obiektami ‘{id: 0……..}, {id: 1…….}.
 Komponent App.jsx jest eksportowany do komponentu index.js (PS: męczę się strasznie ale walczę ).
 4. Tworzę w folderze SRC nowy plik App.css i Countdown.css (uff….wreszcie stylowanie)
-5. Stworzyłem komponent EditEvent w którym jest input „imię”. Importuję go do App.jsx i wstawiam pod {events}
+5. dodałem komponent EditEvent.jsx, w którym zawarłem strukturę HTML trzech inputów i dwóch butonów. Importuję go do App.jsx i wstawiam pod {events}.
+
 

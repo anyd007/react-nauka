@@ -1,0 +1,34 @@
+.edit-event {
+    font-family: 'Amatic SC', cursive;
+    margin: 0 auto;
+    
+    background-color: yellowgreen;
+    text-align: center;
+}
+.edit-event__input-group{
+margin: 4px;
+padding: 10px;
+}
+button{
+    width: 15%;
+text-align: center;
+margin: 10px;
+cursor: pointer;
+padding: 10px;
+font-size: 20px;
+border: 3px solid wheat;
+border-radius: 10px;
+margin-bottom: 10px;
+transition: box-shadow 1s;
+transition: background-color 1s;
+}
+button:active{
+    opacity: 0.8;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 2.5), 0 8px 25px 0 rgba(0, 0, 0, 1.6);
+    background-color: crimson;
+}
+input {
+    border-radius: 10px;
+    width: 20%;
+   
+}
