@@ -3,20 +3,20 @@ import Countdown from "./Countdown.jsx";
 
 class App extends Component{
     constructor(){
-        super()
+        super();
         this.state = {
-    events: [
-        {id:0,  name: 'śniadanie', time: '7:00'},
-        {id:1, name: 'obiad', time: '15:00'}
-    ]
+            events: [
+                {id:0, name:'śniadanie', time:'7:00'},
+                {id:1, name:'obiad', time:'15:00'}
+            ]
         }
     }
     render(){
+        const events = this.state.events.map(el =>{
+            return <Countdown name={el.name} time={el.time} />
+        })
         return(
-            <>
-            <Countdown name="sniadanie" time="7:00" />
-            <Countdown name="obiad" time="15:00" />
-          </>
+            <> {events} </>
         )
     }
 }
