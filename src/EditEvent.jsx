@@ -10,8 +10,9 @@ const EditEvent = props =>{
                 <input id="name" 
                 name="name" 
                 type='text' 
+                value={props.name}
                 placeholder='podaj imię'
-                onChange={e=>props.onInputChange({[e.target.name]: e.target.value})}  >
+                onChange={e=>props.onInputChange({[e.target.name]: e.target.value})}>
                 </input>
             </div>
             <div className="edit-event__input-group">
@@ -19,6 +20,7 @@ const EditEvent = props =>{
                 <input id="hour" 
                 name="hour" 
                 type='text' 
+                value={props.hour}
                 placeholder='podaj godzinę'
                 onChange={e=>props.onInputChange({[e.target.name]: e.target.value})}>
                 </input>
@@ -28,10 +30,11 @@ const EditEvent = props =>{
                 <input id="minutes"
                  name="minutes" 
                  type='tel' 
+                 value={props.minutes}
                  placeholder='podaj minutę'
                  onChange={e=>props.onInputChange({[e.target.name]: e.target.value})}></input>
             </div>
-        <button className="accept-btn">ok</button>
+        <button onClick={() => props.onSave()} className="accept-btn">ok</button>
         <button className="cencel-btn">usuń</button>
         </div>
     )

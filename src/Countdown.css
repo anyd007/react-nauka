@@ -4,3 +4,12 @@
     color: white;
     padding: 20px;
 }
+.countdown__icons{
+    display: none;
+    float: right;
+    font-size: 15px;
+    cursor: pointer;
+}
+.countdown:hover .countdown__icons{
+    display: block;
+}
